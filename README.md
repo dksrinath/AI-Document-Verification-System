@@ -66,4 +66,3 @@ Each result includes:
 - `python-dateutil`
 
 Designed for reliability in real-world document processing workflows.
-```# AI-Document-Verification-System
