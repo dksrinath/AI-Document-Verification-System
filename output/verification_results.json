@@ -1,0 +1,673 @@
+[
+  {
+    "person_id": "P001",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Isaac Bakshi",
+        "father_name": "",
+        "date_of_birth": "07-09-1998",
+        "address": "321 Chahal Circle, Patna, Andhra Pradesh, PIN: 338908",
+        "phone_number": "+91-3863794026",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "0341316475"
+      },
+      "document_2": {
+        "full_name": "Isaac Bakshi",
+        "father_name": "Anvi Bakshi",
+        "date_of_birth": "07-09-1998",
+        "address": "House No. 321, Chahal Circle, Patna - 338908, Andhra Pradesh",
+        "phone_number": "",
+        "email": "isaac.bakshi@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "YFJS00781N",
+        "employee_id": "EMP5931",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "ISAAC BAKSHI",
+        "father_name": "Anvi Bakshi",
+        "date_of_birth": "07/09/1998",
+        "address": "321, Chahal Circle, Patna, Andhra Pradesh - 338908",
+        "phone_number": "3863794026",
+        "email": "",
+        "aadhaar_number": "423511615594",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "FAIL",
+        "reason": "Invalid PAN format: YFJS00781N. Expected format: ABCDE1234F"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P002",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Nicholas Prabhakar",
+        "father_name": "",
+        "date_of_birth": "10-05-2000",
+        "address": "419 Walla Street Ujjain, Manipur, PIN: 483503",
+        "phone_number": "+91-0564139537",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "6697848018"
+      },
+      "document_2": {
+        "full_name": "Nicholas Prabhakar",
+        "father_name": "Isha Prabhakar",
+        "date_of_birth": "10-05-2000",
+        "address": "House No. 419, Walla Street Ujjain - 483503, Manipur",
+        "phone_number": "",
+        "email": "nicholas.prabhakar@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "FFWDH5328J",
+        "employee_id": "EMP2691",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "NICHOLAS PRABHAKAR",
+        "father_name": "Isha Prahakar",
+        "date_of_birth": "10/05/2000",
+        "address": "419, Walla Street Ujjain, Manipur - 483503",
+        "phone_number": "0564139537",
+        "email": "",
+        "aadhaar_number": "724238849696",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "FAIL",
+        "reason": "Father's name mismatch: ['isha prahakar', 'isha prabhakar']"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P003",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Amara Oak",
+        "father_name": "",
+        "date_of_birth": "21-11-1979",
+        "address": "H.No. 62 Aggarwal Chowk, Orai, Tripura, PIN: 814893",
+        "phone_number": "+91-2528809570",
+        "email": "",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "7871331509"
+      },
+      "document_2": {
+        "full_name": "Amara Oak",
+        "father_name": "Isaac Oak",
+        "date_of_birth": "21-11-1979",
+        "address": "House No. H.No. 62, Aggarwal Chowk, Orai - 814893, Tripura",
+        "phone_number": "",
+        "email": "amara.oak@gmail.com",
+        "aadhaar_number": "",
+        "pan_number": "QHMBN27821",
+        "employee_id": "EMP3465",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Amara Oak",
+        "father_name": "Isaac Oak",
+        "date_of_birth": "21/11/1979",
+        "address": "H.No. 62, Aggarwal Chowk, Orai, Tripura - 814893",
+        "phone_number": "2528809570",
+        "email": "",
+        "aadhaar_number": "543039117182",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "FAIL",
+        "reason": "Invalid PAN format: QHMBN27821. Expected format: ABCDE1234F"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P004",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Victor Kannan",
+        "father_name": "",
+        "date_of_birth": "19-06-1982",
+        "address": "H.No. 031 Narayanan Nagar, Kottayam, Haryana, PIN: 738299",
+        "phone_number": "+91-7376311656",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "1326773602"
+      },
+      "document_2": {
+        "full_name": "Victor Kannan",
+        "father_name": "Abhimanyu Kannan",
+        "date_of_birth": "19-06-1982",
+        "address": "House No. H.No. 031, Narayanan Nagar, Kottayam - 738299, Haryana",
+        "phone_number": "",
+        "email": "victor.kannan@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "DPECZ2624JJ",
+        "employee_id": "EMP1080",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "VICTOR KANNAN",
+        "father_name": "Abhimanyu Kannan",
+        "date_of_birth": "19/06/1982",
+        "address": "H.No. 031, Narayanan Nagar, Kottayam, Haryana -738299",
+        "phone_number": "+917376311656",
+        "email": "",
+        "aadhaar_number": "701065133387",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "FAIL",
+        "reason": "Invalid PAN format: DPECZ2624JJ. Expected format: ABCDE1234F"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P005",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Ladli Singh",
+        "father_name": "",
+        "date_of_birth": "13-12-1971",
+        "address": "H.No. 74 Sur Marg, Jhansi, Jharkhand, PIN: 098050",
+        "phone_number": "+91-0978820812",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "4751079911"
+      },
+      "document_2": {
+        "full_name": "Ladli Agate",
+        "father_name": "Madhavi Agate",
+        "date_of_birth": "13-12-1971",
+        "address": "H.No. 74, Sur Marg, Jhansi - 098050, Jharkhand",
+        "phone_number": "",
+        "email": "ladli.agate@gmail.com",
+        "aadhaar_number": "",
+        "pan_number": "UQNQT6998U",
+        "employee_id": "EMP3462",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Ladli Agate",
+        "father_name": "Madhavi Aggate",
+        "date_of_birth": "13/12/1971",
+        "address": "H. No. 74, Sur Marg, Jhansi, Jharkhand-098050",
+        "phone_number": "0978820812",
+        "email": "",
+        "aadhaar_number": "913619399091",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "FAIL",
+        "reason": "Name mismatch found: ['ladli agate', 'ladli singh']"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "FAIL",
+        "reason": "Father's name mismatch: ['madhavi aggate', 'madhavi agate']"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P006",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Tanay Toor",
+        "father_name": "",
+        "date_of_birth": "31-07-1973",
+        "address": "513 Mane Path, Bahraich, Uttarakhand, PIN: 980841",
+        "phone_number": "+91-2411824493",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "8059826204"
+      },
+      "document_2": {
+        "full_name": "Tanay Toor",
+        "father_name": "Alka Toor",
+        "date_of_birth": "27-12-1973",
+        "address": "House No. 513, Mane Path, Bahraich - 980841, Uttarakhand",
+        "phone_number": "",
+        "email": "tanay.toor@hotmail.com",
+        "aadhaar_number": "",
+        "pan_number": "VCJTB5242J",
+        "employee_id": "EMP0112",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Tanay Toor",
+        "father_name": "Alka Toor",
+        "date_of_birth": "31/07/1973",
+        "address": "513, Mane Path, Bahraich, Uttarakhand-980841",
+        "phone_number": "+912411824493",
+        "email": "",
+        "aadhaar_number": "534874016400",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "FAIL",
+        "reason": "Date of birth mismatch: ['27121973', '31071973']"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P007",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Janya Baral",
+        "father_name": "",
+        "date_of_birth": "18-04-1977",
+        "address": "315 Ray Circle, Patiala, West Bengal, PIN: 260256",
+        "phone_number": "+91-3421606088",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "5698169340"
+      },
+      "document_2": {
+        "full_name": "Janya Baral",
+        "father_name": "Ishita Baral",
+        "date_of_birth": "18-04-1977",
+        "address": "House No. 315, Ray Circle, Patiala - 260256, West Bengal",
+        "phone_number": "",
+        "email": "janya.baral@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "HQLLQ6850C",
+        "employee_id": "EMP1965",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Janya Baral",
+        "father_name": "Ishita Baral",
+        "date_of_birth": "18/04/1977",
+        "address": "315, Ray Circle, Patiala, West Bengal-260256",
+        "phone_number": "+913421607337",
+        "email": "",
+        "aadhaar_number": "433036541458",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "FAIL",
+        "reason": "Phone number mismatch: ['3421607337', '3421606088']"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P008",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Ronith Patla",
+        "father_name": "",
+        "date_of_birth": "29-04-1997",
+        "address": "H.No. 595 Mital Zila, Alappuzha, Karnataka, PIN: 482366",
+        "phone_number": "+91-2994680443",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "3791769367"
+      },
+      "document_2": {
+        "full_name": "Ronith Patla",
+        "father_name": "Mugdha Kohli",
+        "date_of_birth": "29/04/1997",
+        "address": "House No. H.No. 595, Mital Zila, Alappuzha - 482366, Karnataka",
+        "phone_number": "",
+        "email": "ronith.patla@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "WPRTO8951Z",
+        "employee_id": "EMP3200",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Ronith Patla",
+        "father_name": "Raagini Patla",
+        "date_of_birth": "29/04/1997",
+        "address": "H.No. 595, Mital Zila, Alappuzha, Karnataka - 482366",
+        "phone_number": "2994680443",
+        "email": "",
+        "aadhaar_number": "995777387214",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "FAIL",
+        "reason": "Father's name mismatch: ['mugdha kohli', 'raagini patla']"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P009",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Manbir Ahluwalia",
+        "father_name": "",
+        "date_of_birth": "08-01-1987",
+        "address": "32 Shetty Circle, Proddatur, Haryana, PIN: 727889",
+        "phone_number": "+91-5798687277",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "5876036690"
+      },
+      "document_2": {
+        "full_name": "Manbir Ahluwalia",
+        "father_name": "Hredhaan Ahluwalia",
+        "date_of_birth": "08-01-1987",
+        "address": "House No. 32, Shetty Circle, Proddatur-727889, Haryana",
+        "phone_number": "",
+        "email": "manbir.ahluwalia@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "WyA967054",
+        "employee_id": "EMP3166",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Manbir Ahluwalia",
+        "father_name": "Hredhaan Ahluwalia",
+        "date_of_birth": "08/01/1987",
+        "address": "32, Shetty Circle, Proddatur, Haryana -727889",
+        "phone_number": "+915798687277",
+        "email": "",
+        "aadhaar_number": "348734714345",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "FAIL",
+        "reason": "Invalid PAN format: WYA967054. Expected format: ABCDE1234F"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  },
+  {
+    "person_id": "P010",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Thomas Sura",
+        "father_name": "",
+        "date_of_birth": "16-09-2000",
+        "address": "H.No. 67 Ramachandran Nagar, Machilipatnam, Telangana, PIN: 729806",
+        "phone_number": "+91-9901627204",
+        "email": "care@nationalindiabank.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": "9232719374"
+      },
+      "document_2": {
+        "full_name": "Thomas Sura",
+        "father_name": "Theodore Sura",
+        "date_of_birth": "16-09-2000",
+        "address": "House No. H.No. 67, Ramachandran Nagar, Machilipatnam - 729806, Telangana",
+        "phone_number": "",
+        "email": "thomas.sura@yahoo.com",
+        "aadhaar_number": "",
+        "pan_number": "PEXPC8053W",
+        "employee_id": "EMP0330",
+        "account_number": ""
+      },
+      "document_3": {
+        "full_name": "Thomas Sura",
+        "father_name": "Theodore Sura",
+        "date_of_birth": "16/09/2000",
+        "address": "H. No. 67, Ramachandran Nagar, Machilipatnam, Telangana-729806",
+        "phone_number": "9901627204",
+        "email": "",
+        "aadhaar_number": "52991241",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "FAIL",
+        "reason": "Invalid Aadhaar format: 52991241. Expected 12 digits"
+      },
+      "overall_status": "FAILED"
+    },
+    "overall_status": "FAILED"
+  }
+]

@@ -1,0 +1,231 @@
+2025-10-18 20:45:08 | INFO     | utils:setup_logging:31 - Logging system initialized successfully
+2025-10-18 20:45:08 | INFO     | __main__:__init__:17 - Initializing Document Verification System
+2025-10-18 20:45:08 | INFO     | __main__:_initialize_vision_client:39 - Google Gemini Vision client initialized successfully
+2025-10-18 20:45:08 | INFO     | __main__:_initialize_llm_client:55 - Google Gemini LLM client initialized successfully
+2025-10-18 20:45:08 | INFO     | verifier:__init__:22 - DataExtractor initialized with gemini provider
+2025-10-18 20:45:08 | INFO     | verifier:__init__:168 - VerificationEngine initialized with strict validation rules
+2025-10-18 20:45:08 | INFO     | __main__:__init__:29 - System initialization complete
+2025-10-18 20:45:08 | INFO     | __main__:run:122 - Starting Document Verification System
+2025-10-18 20:45:08 | INFO     | __main__:run:134 - Found 10 person directories to process
+2025-10-18 20:45:08 | INFO     | __main__:process_person_documents:67 - Processing documents for P001
+2025-10-18 20:45:08 | INFO     | __main__:process_person_documents:78 - Processing P001_bank_statement.png
+2025-10-18 20:45:09 | WARNING  | verifier:extract_text_from_image:66 - Rate limit hit, retrying in 35 seconds (attempt 1/3)
+2025-10-18 20:45:44 | WARNING  | verifier:extract_text_from_image:66 - Rate limit hit, retrying in 35 seconds (attempt 2/3)
+2025-10-18 20:45:58 | WARNING  | __main__:main:172 - Process interrupted by user
+2025-10-18 20:46:57 | INFO     | utils:setup_logging:31 - Logging system initialized successfully
+2025-10-18 20:46:57 | INFO     | __main__:__init__:17 - Initializing Document Verification System
+2025-10-18 20:46:57 | INFO     | __main__:_initialize_vision_client:39 - Google Gemini Vision client initialized successfully
+2025-10-18 20:46:57 | INFO     | __main__:_initialize_llm_client:55 - Google Gemini LLM client initialized successfully
+2025-10-18 20:46:57 | INFO     | verifier:__init__:22 - DataExtractor initialized with gemini provider
+2025-10-18 20:46:57 | INFO     | verifier:__init__:168 - VerificationEngine initialized with strict validation rules
+2025-10-18 20:46:57 | INFO     | __main__:__init__:29 - System initialization complete
+2025-10-18 20:46:57 | INFO     | __main__:run:122 - Starting Document Verification System
+2025-10-18 20:46:57 | INFO     | __main__:run:134 - Found 10 person directories to process
+2025-10-18 20:46:57 | INFO     | __main__:process_person_documents:67 - Processing documents for P001
+2025-10-18 20:46:57 | INFO     | __main__:process_person_documents:78 - Processing P001_bank_statement.png
+2025-10-18 20:47:01 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 666 characters from P001_bank_statement.png
+2025-10-18 20:47:01 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.490 seconds
+2025-10-18 20:47:02 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:47:02 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.349 seconds
+2025-10-18 20:47:02 | INFO     | __main__:process_person_documents:78 - Processing P001_employment_letter.png
+2025-10-18 20:47:05 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 702 characters from P001_employment_letter.png
+2025-10-18 20:47:05 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.026 seconds
+2025-10-18 20:47:07 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:47:07 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.524 seconds
+2025-10-18 20:47:07 | INFO     | __main__:process_person_documents:78 - Processing P001_government_id.png
+2025-10-18 20:47:09 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 260 characters from P001_government_id.png
+2025-10-18 20:47:09 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.598 seconds
+2025-10-18 20:47:10 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:47:10 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.337 seconds
+2025-10-18 20:47:10 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:47:10 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:47:10 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.002 seconds
+2025-10-18 20:47:10 | INFO     | utils:wrapper:40 - process_person_documents completed in 13.333 seconds
+2025-10-18 20:47:10 | INFO     | __main__:process_person_documents:67 - Processing documents for P002
+2025-10-18 20:47:10 | INFO     | __main__:process_person_documents:78 - Processing P002_bank_statement.png
+2025-10-18 20:47:14 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 665 characters from P002_bank_statement.png
+2025-10-18 20:47:14 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.575 seconds
+2025-10-18 20:47:15 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:47:15 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.365 seconds
+2025-10-18 20:47:15 | INFO     | __main__:process_person_documents:78 - Processing P002_employment_letter.png
+2025-10-18 20:47:18 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 706 characters from P002_employment_letter.png
+2025-10-18 20:47:18 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.066 seconds
+2025-10-18 20:47:20 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:47:20 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.374 seconds
+2025-10-18 20:47:20 | INFO     | __main__:process_person_documents:78 - Processing P002_government_id.png
+2025-10-18 20:47:22 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 258 characters from P002_government_id.png
+2025-10-18 20:47:22 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.345 seconds
+2025-10-18 20:47:24 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:47:24 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.893 seconds
+2025-10-18 20:47:24 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:47:24 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:47:24 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:47:24 | INFO     | utils:wrapper:40 - process_person_documents completed in 13.626 seconds
+2025-10-18 20:47:24 | INFO     | __main__:process_person_documents:67 - Processing documents for P003
+2025-10-18 20:47:24 | INFO     | __main__:process_person_documents:78 - Processing P003_bank_statement.png
+2025-10-18 20:47:27 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 661 characters from P003_bank_statement.png
+2025-10-18 20:47:27 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.141 seconds
+2025-10-18 20:47:29 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:47:29 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.431 seconds
+2025-10-18 20:47:29 | INFO     | __main__:process_person_documents:78 - Processing P003_employment_letter.png
+2025-10-18 20:47:32 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 683 characters from P003_employment_letter.png
+2025-10-18 20:47:32 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.868 seconds
+2025-10-18 20:47:33 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:47:33 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.419 seconds
+2025-10-18 20:47:33 | INFO     | __main__:process_person_documents:78 - Processing P003_government_id.png
+2025-10-18 20:47:36 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 253 characters from P003_government_id.png
+2025-10-18 20:47:36 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.773 seconds
+2025-10-18 20:47:37 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:47:37 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.368 seconds
+2025-10-18 20:47:37 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:47:37 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:47:37 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:47:37 | INFO     | utils:wrapper:40 - process_person_documents completed in 13.007 seconds
+2025-10-18 20:47:37 | INFO     | __main__:process_person_documents:67 - Processing documents for P004
+2025-10-18 20:47:37 | INFO     | __main__:process_person_documents:78 - Processing P004_bank_statement.png
+2025-10-18 20:47:40 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 672 characters from P004_bank_statement.png
+2025-10-18 20:47:40 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.212 seconds
+2025-10-18 20:47:42 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:47:42 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.515 seconds
+2025-10-18 20:47:42 | INFO     | __main__:process_person_documents:78 - Processing P004_employment_letter.png
+2025-10-18 20:47:45 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 708 characters from P004_employment_letter.png
+2025-10-18 20:47:45 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.150 seconds
+2025-10-18 20:47:47 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:47:47 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.625 seconds
+2025-10-18 20:47:47 | INFO     | __main__:process_person_documents:78 - Processing P004_government_id.png
+2025-10-18 20:47:50 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 264 characters from P004_government_id.png
+2025-10-18 20:47:50 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.161 seconds
+2025-10-18 20:47:52 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:47:52 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 2.337 seconds
+2025-10-18 20:47:52 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:47:52 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:47:52 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.002 seconds
+2025-10-18 20:47:52 | INFO     | utils:wrapper:40 - process_person_documents completed in 15.007 seconds
+2025-10-18 20:47:52 | INFO     | __main__:process_person_documents:67 - Processing documents for P005
+2025-10-18 20:47:52 | INFO     | __main__:process_person_documents:78 - Processing P005_bank_statement.png
+2025-10-18 20:47:55 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 666 characters from P005_bank_statement.png
+2025-10-18 20:47:55 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.204 seconds
+2025-10-18 20:47:55 | INFO     | verifier:_wait_for_rate_limit:32 - Rate limit protection: waiting 1.8 seconds
+2025-10-18 20:48:00 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:48:00 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 4.235 seconds
+2025-10-18 20:48:00 | INFO     | __main__:process_person_documents:78 - Processing P005_employment_letter.png
+2025-10-18 20:48:00 | INFO     | verifier:_wait_for_rate_limit:32 - Rate limit protection: waiting 1.1 seconds
+2025-10-18 20:48:04 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 696 characters from P005_employment_letter.png
+2025-10-18 20:48:04 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 4.893 seconds
+2025-10-18 20:48:06 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:48:06 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.362 seconds
+2025-10-18 20:48:06 | INFO     | __main__:process_person_documents:78 - Processing P005_government_id.png
+2025-10-18 20:48:08 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 251 characters from P005_government_id.png
+2025-10-18 20:48:08 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.360 seconds
+2025-10-18 20:48:10 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:48:10 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.445 seconds
+2025-10-18 20:48:10 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:48:10 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:48:10 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:48:10 | INFO     | utils:wrapper:40 - process_person_documents completed in 17.513 seconds
+2025-10-18 20:48:10 | INFO     | __main__:process_person_documents:67 - Processing documents for P006
+2025-10-18 20:48:10 | INFO     | __main__:process_person_documents:78 - Processing P006_bank_statement.png
+2025-10-18 20:48:13 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 660 characters from P006_bank_statement.png
+2025-10-18 20:48:13 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.586 seconds
+2025-10-18 20:48:15 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:48:15 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.341 seconds
+2025-10-18 20:48:15 | INFO     | __main__:process_person_documents:78 - Processing P006_employment_letter.png
+2025-10-18 20:48:17 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 689 characters from P006_employment_letter.png
+2025-10-18 20:48:17 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.771 seconds
+2025-10-18 20:48:19 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:48:19 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.788 seconds
+2025-10-18 20:48:19 | INFO     | __main__:process_person_documents:78 - Processing P006_government_id.png
+2025-10-18 20:48:22 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 248 characters from P006_government_id.png
+2025-10-18 20:48:22 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.601 seconds
+2025-10-18 20:48:23 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:48:23 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.348 seconds
+2025-10-18 20:48:23 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:48:23 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:48:23 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.004 seconds
+2025-10-18 20:48:23 | INFO     | utils:wrapper:40 - process_person_documents completed in 13.449 seconds
+2025-10-18 20:48:23 | INFO     | __main__:process_person_documents:67 - Processing documents for P007
+2025-10-18 20:48:23 | INFO     | __main__:process_person_documents:78 - Processing P007_bank_statement.png
+2025-10-18 20:48:26 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 661 characters from P007_bank_statement.png
+2025-10-18 20:48:26 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.309 seconds
+2025-10-18 20:48:28 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:48:28 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.514 seconds
+2025-10-18 20:48:28 | INFO     | __main__:process_person_documents:78 - Processing P007_employment_letter.png
+2025-10-18 20:48:31 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 692 characters from P007_employment_letter.png
+2025-10-18 20:48:31 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.864 seconds
+2025-10-18 20:48:32 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:48:32 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.421 seconds
+2025-10-18 20:48:32 | INFO     | __main__:process_person_documents:78 - Processing P007_government_id.png
+2025-10-18 20:48:34 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 252 characters from P007_government_id.png
+2025-10-18 20:48:34 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.235 seconds
+2025-10-18 20:48:36 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:48:36 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.434 seconds
+2025-10-18 20:48:36 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:48:36 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:48:36 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:48:36 | INFO     | utils:wrapper:40 - process_person_documents completed in 12.787 seconds
+2025-10-18 20:48:36 | INFO     | __main__:process_person_documents:67 - Processing documents for P008
+2025-10-18 20:48:36 | INFO     | __main__:process_person_documents:78 - Processing P008_bank_statement.png
+2025-10-18 20:48:39 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 669 characters from P008_bank_statement.png
+2025-10-18 20:48:39 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.420 seconds
+2025-10-18 20:48:41 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:48:41 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.539 seconds
+2025-10-18 20:48:41 | INFO     | __main__:process_person_documents:78 - Processing P008_employment_letter.png
+2025-10-18 20:48:44 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 698 characters from P008_employment_letter.png
+2025-10-18 20:48:44 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.745 seconds
+2025-10-18 20:48:45 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:48:45 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.543 seconds
+2025-10-18 20:48:45 | INFO     | __main__:process_person_documents:78 - Processing P008_government_id.png
+2025-10-18 20:48:47 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 265 characters from P008_government_id.png
+2025-10-18 20:48:47 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.263 seconds
+2025-10-18 20:48:49 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:48:49 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.531 seconds
+2025-10-18 20:48:49 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:48:49 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:48:49 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:48:49 | INFO     | utils:wrapper:40 - process_person_documents completed in 13.048 seconds
+2025-10-18 20:48:49 | INFO     | __main__:process_person_documents:67 - Processing documents for P009
+2025-10-18 20:48:49 | INFO     | __main__:process_person_documents:78 - Processing P009_bank_statement.png
+2025-10-18 20:48:49 | INFO     | verifier:_wait_for_rate_limit:32 - Rate limit protection: waiting 0.9 seconds
+2025-10-18 20:48:54 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 677 characters from P009_bank_statement.png
+2025-10-18 20:48:54 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 5.567 seconds
+2025-10-18 20:48:56 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:48:56 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.535 seconds
+2025-10-18 20:48:56 | INFO     | __main__:process_person_documents:78 - Processing P009_employment_letter.png
+2025-10-18 20:48:59 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 707 characters from P009_employment_letter.png
+2025-10-18 20:48:59 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.997 seconds
+2025-10-18 20:48:59 | INFO     | verifier:_wait_for_rate_limit:32 - Rate limit protection: waiting 0.5 seconds
+2025-10-18 20:49:02 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:49:02 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 3.068 seconds
+2025-10-18 20:49:02 | INFO     | __main__:process_person_documents:78 - Processing P009_government_id.png
+2025-10-18 20:49:02 | INFO     | verifier:_wait_for_rate_limit:32 - Rate limit protection: waiting 2.4 seconds
+2025-10-18 20:49:12 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 265 characters from P009_government_id.png
+2025-10-18 20:49:12 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 10.390 seconds
+2025-10-18 20:49:14 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:49:14 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.453 seconds
+2025-10-18 20:49:14 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:49:14 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:49:14 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:49:14 | INFO     | utils:wrapper:40 - process_person_documents completed in 25.016 seconds
+2025-10-18 20:49:14 | INFO     | __main__:process_person_documents:67 - Processing documents for P010
+2025-10-18 20:49:14 | INFO     | __main__:process_person_documents:78 - Processing P010_bank_statement.png
+2025-10-18 20:49:17 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 686 characters from P010_bank_statement.png
+2025-10-18 20:49:17 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 3.224 seconds
+2025-10-18 20:49:20 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Bank Statement data
+2025-10-18 20:49:20 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 2.515 seconds
+2025-10-18 20:49:20 | INFO     | __main__:process_person_documents:78 - Processing P010_employment_letter.png
+2025-10-18 20:49:22 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 712 characters from P010_employment_letter.png
+2025-10-18 20:49:22 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.664 seconds
+2025-10-18 20:49:24 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Employment Letter data
+2025-10-18 20:49:24 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.349 seconds
+2025-10-18 20:49:24 | INFO     | __main__:process_person_documents:78 - Processing P010_government_id.png
+2025-10-18 20:49:26 | INFO     | verifier:extract_text_from_image:56 - Successfully extracted 268 characters from P010_government_id.png
+2025-10-18 20:49:26 | INFO     | utils:wrapper:40 - extract_text_from_image completed in 2.425 seconds
+2025-10-18 20:49:27 | INFO     | verifier:structure_text_with_llm:95 - Successfully structured Government ID data
+2025-10-18 20:49:27 | INFO     | utils:wrapper:40 - structure_text_with_llm completed in 1.338 seconds
+2025-10-18 20:49:27 | INFO     | verifier:run_all_verifications:172 - Starting verification checks
+2025-10-18 20:49:27 | INFO     | verifier:run_all_verifications:189 - Verification complete. Overall Status: FAILED
+2025-10-18 20:49:27 | INFO     | utils:wrapper:40 - run_all_verifications completed in 0.001 seconds
+2025-10-18 20:49:27 | INFO     | utils:wrapper:40 - process_person_documents completed in 13.522 seconds
+2025-10-18 20:49:27 | INFO     | __main__:run:154 - Results successfully written to output\verification_results.json
+2025-10-18 20:49:27 | INFO     | __main__:run:161 - Processing Summary: Total=10, Verified=0, Failed=10, Errors=0
+2025-10-18 20:49:27 | INFO     | utils:wrapper:40 - run completed in 150.315 seconds
