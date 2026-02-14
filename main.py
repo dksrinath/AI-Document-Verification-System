@@ -35,7 +35,7 @@ class DocumentVerificationSystem:
                 raise ValueError("GOOGLE_API_KEY not set in .env file")
             
             genai.configure(api_key=api_key)
-            client = genai.GenerativeModel('gemini-2.0-flash-lite')
+            client = genai.GenerativeModel('gemini-2.5-pro')
             logger.info("Google Gemini Vision client initialized successfully")
             return client
         except Exception as e:
@@ -51,7 +51,7 @@ class DocumentVerificationSystem:
                     raise ValueError("GOOGLE_API_KEY not set in .env file")
                 
                 genai.configure(api_key=api_key)
-                client = genai.GenerativeModel('gemini-2.0-flash-lite')
+                client = genai.GenerativeModel('gemini-2.5-pro')
                 logger.info("Google Gemini LLM client initialized successfully")
             else:
                 raise ValueError(f"Unsupported LLM provider: {provider}")
